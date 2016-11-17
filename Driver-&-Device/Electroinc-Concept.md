@@ -73,7 +73,16 @@ this.pwmB.setDuty(this.inputB / 0xff);
 
 因此红绿蓝三色 LED 才会以不同的亮度组合，形成复合色。
   
-##
+### 占空比
+
+### 方波
 
 ## ADC
 
+ADC 意思是模/数转换器（Analog-to-Digital converter），顾名思义，当您需要将电压这样的连续的（即模拟的）物理量转化为 Javascript 中离散的（即数字的） number 类型时，就会需要它。
+
+## QEI
+
+QEI 意思是正交编码器接口（Quadrature Encoder Interface），用来测量电机的转速和方向。
+
+### 每圈脉冲数
