@@ -6,7 +6,7 @@ Textbook about how to develop with Ruff [WIP] [RFC]
 
 Javascript 的教程有很多，例如制定 Javascript 标准的组织提供的[官方教程](http://www.w3school.com.cn/js/js_variables.asp)，它们主要的教学目标是帮助您开发运行在浏览器上的 Web 应用。
   
-但为了控制和监测现实世界而开发 Ruff 应用，一般会比开发浏览器上的应用简单，您可能只需要掌握一些基本的 Javascript 知识，并简单了解一种叫做 JQuery 的工具。
+用 Ruff 快速开发物联网应用，一般会比开发浏览器上的应用简单，您可能只需要掌握一些基本的 Javascript 知识，并简单了解一种叫做 JQuery 的工具。
 
 ### [Javascript 数据控制](https://github.com/linonetwo/ruff-textbook/blob/master/App-Develop/Javascript-Dataflow.md)
 
