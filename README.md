@@ -12,30 +12,30 @@ Javascript 的教程有很多，例如制定 Javascript 标准的组织提供的
 
 这一部分里我们将向您介绍 Ruff 开发中将用到的 Javascript 技能，并告诉你如何写 Javascript 能写得又好又快。
 
-### [用 JQuery 选中设备](https://github.com/linonetwo/ruff-textbook/blob/master/App-Develop/Selecting-By-JQuery.md)
+### [选中设备](https://github.com/linonetwo/ruff-textbook/blob/master/App-Develop/Selecting-By-JQuery.md)
 
 这一部分里我们将向您介绍在选中设备前需要做什么准备工作、解释选中设备后用导线连接设备时会涉及到的一些术语，并向列出目前可供选中的部分设备。
+
+### [从开始到部署](https://github.com/linonetwo/ruff-textbook/blob/master/App-Develop/Init-%26-Deploy.md)
+
+代码需要部署到设备上运行，您可能已经简单尝试过一到两种部署 Ruff 应用的方法。我们将从这些最简单的部署方法展开，讲述更多的部署可能性，以及部署后对应用 Debug 的方法。
 
 ### [测试](https://github.com/linonetwo/ruff-textbook/blob/master/App-Develop/Test.md)
 
 现代 Javascript 开发中有许多有益的工程方法，可以在用户看到 Web 页面拒绝显示前，就在开发阶段告诉开发者代码里有 Bug。我们将这些优秀的实践引入 Ruff 的开发过程，希望能帮助您有效地防止物联网设备搅乱现实世界的秩序。这些实践包括本地自动化测试、关键部分埋点等，它们在提高代码质量的同时，也保证了项目体量变大后您仍能保持对代码的信心。
-  
-### [从开始到部署](https://github.com/linonetwo/ruff-textbook/blob/master/App-Develop/Init-%26-Deploy.md)
-
-代码需要部署到设备上运行，您可能已经简单尝试过一到两种部署 Ruff 应用的方法。我们将从这些最简单的部署方法展开，讲述更多的部署可能性，以及部署后对应用 Debug 的方法。
 
 ### [设备互联](https://github.com/linonetwo/ruff-textbook/blob/master/App-Develop/Get-Connected.md)
 
 Javascript 是一门生于互联网，服务互联网的语言，在 Ruff 应用中配置设备与云端的连接，将让您的物联网设备名副其实。
   
 Slaff 是与 Ruff 相配套的物联网云平台，通过它连接 Ruff 轻松而愉快。
-
+  
 在这个部分我们将介绍 Ruff 应用如何通信，以及如何互相发现。
 
 ## [驱动与设备](https://github.com/linonetwo/ruff-textbook/tree/master/Driver-%26-Device)
 
 在选中设备后我们能对设备进行操作。Ruff 的工程师已经[为一系列设备定义了能进行的操作](https://rap.ruff.io)，但他们非常忙碌，如果您自己想控制有个性的设备，您可以写一个设备驱动，暴露出操作这个设备的能力。
-  
+
 ### [常见硬件开发概念](https://github.com/linonetwo/ruff-textbook/blob/master/Driver-%26-Device/Electroinc-Concept.md)
 
 当您面对设备文档，很多疑问会产生：什么是 GPIO ？什么叫高电平？中断又是什么？在设备部分里我们将向您解释驱动开发中将会遇到的各种电路名词。
