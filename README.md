@@ -12,25 +12,19 @@ Javascript 的教程有很多，例如制定 Javascript 标准的组织提供的
 
 这一部分里我们将向您介绍 Ruff 开发中将用到的 Javascript 技能，并告诉你如何写 Javascript 能写得又好又快。
 
-### [选中设备](https://github.com/linonetwo/ruff-textbook/blob/master/App-Develop/Selecting-By-JQuery.md)
-
-这一部分里我们将向您介绍在选中设备前需要做什么准备工作、解释选中设备后用导线连接设备时会涉及到的一些术语，并向列出目前可供选中的部分设备。
-
 ### [从开始到部署](https://github.com/linonetwo/ruff-textbook/blob/master/App-Develop/Init-%26-Deploy.md)
 
 代码需要部署到设备上运行，您可能已经简单尝试过一到两种部署 Ruff 应用的方法。我们将从这些最简单的部署方法展开，讲述更多的部署可能性，以及部署后对应用 Debug 的方法。
 
+您可能正在使用已得到官方支持的第三方板卡——例如树莓派——的使用流程。除了展示使用流程外，这一部分还包含了使用树莓派和 MCU 等板卡时的注意事项。
+
+### [选中设备](https://github.com/linonetwo/ruff-textbook/blob/master/App-Develop/Selecting-Devices.md)
+
+这一部分里我们将向您介绍在选中设备前需要做什么准备工作、解释选中设备后用导线连接设备时会涉及到的一些术语，并向列出目前可供选中的部分设备。
+
 ### [测试](https://github.com/linonetwo/ruff-textbook/blob/master/App-Develop/Test.md)
 
 现代 Javascript 开发中有许多有益的工程方法，可以在用户看到 Web 页面拒绝显示前，就在开发阶段告诉开发者代码里有 Bug。我们将这些优秀的实践引入 Ruff 的开发过程，希望能帮助您有效地防止物联网设备搅乱现实世界的秩序。这些实践包括本地自动化测试、关键部分埋点等，它们在提高代码质量的同时，也保证了项目体量变大后您仍能保持对代码的信心。
-
-### [设备互联](https://github.com/linonetwo/ruff-textbook/blob/master/App-Develop/Get-Connected.md)
-
-Javascript 是一门生于互联网，服务互联网的语言，在 Ruff 应用中配置设备与云端的连接，将让您的物联网设备名副其实。
-  
-Slaff 是与 Ruff 相配套的物联网云平台，通过它连接 Ruff 轻松而愉快。
-  
-在这个部分我们将介绍 Ruff 应用如何通信，以及如何互相发现。
 
 ## [驱动与设备](https://github.com/linonetwo/ruff-textbook/tree/master/Driver-%26-Device)
 
@@ -44,19 +38,31 @@ Slaff 是与 Ruff 相配套的物联网云平台，通过它连接 Ruff 轻松�
 
 当开始撰写驱动，您需要知道：driver 函数是什么？this.emit 是做什么的？它们都是 Ruff 的工程师用 Javascript 书写的工具，在驱动部分里我们将向您介绍如何使用这些工具，并介绍保证您的驱动不出严重错误的方法。
 
-## [板卡适配与开发](https://github.com/linonetwo/ruff-textbook/tree/master/Boards)
+## [板卡适配](https://github.com/linonetwo/ruff-textbook/tree/master/Boards)
 
 Ruff 是一个物联网操作系统（IoT OS），支持树莓派、MCU 等您可能需要的板卡，您也可以尝试适配您喜欢的板卡。
   
 物联网操作系统将为您提供跨板卡而统一的开发体验，如果您习惯了用 Ruff 板开发应用，您也会很快上手 MCU 的开发。
 
-### [使用树莓派或 MCU](https://github.com/linonetwo/ruff-textbook/blob/master/Boards/RaspberryPi-%26-MCU.md)
+### 开发板基本概念
 
-在板卡使用部分里我们将详述已得到官方支持的板卡——例如树莓派——的使用流程。除了展示使用流程外，这一部分还包含了使用树莓派和 MCU 等板卡时的注意事项。
+
 
 ### [适配一块新板卡](https://github.com/linonetwo/ruff-textbook/blob/master/Boards/Board-Adaption.md)
 
 在板卡适配部分您将知道如何理解您的板卡，并将其书写成一个板卡描述文件。
+
+## [设备互联](https://github.com/linonetwo/ruff-textbook/blob/master/App-Develop/Get-Connected.md)
+
+Javascript 是一门生于互联网，服务互联网的语言，在 Ruff 应用中配置设备与云端的连接，将让您的物联网设备名副其实。
+
+### Slaff
+
+Slaff 是与 Ruff 相配套的物联网云平台，通过它连接 Ruff 轻松而愉快。
+
+### 可通信外设
+
+在这个部分我们将介绍 Ruff 应用如何用蓝牙、ZigBee 等外设来通信，以及如何互相发现。
 
 ## 参考书
 
