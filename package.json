@@ -1,0 +1,27 @@
+{
+  "name": "ruff-textbook",
+  "version": "1.0.0",
+  "description": "Textbook about how to develop with Ruff",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./mindmap/mindServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linonetwo/ruff-textbook.git"
+  },
+  "keywords": [
+    "ruff"
+  ],
+  "author": "linonetwo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linonetwo/ruff-textbook/issues"
+  },
+  "homepage": "https://github.com/linonetwo/ruff-textbook#readme",
+  "dependencies": {
+    "enhanced-markmap": "0.0.10",
+    "express": "^4.14.0"
+  }
+}
